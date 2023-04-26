@@ -1,1 +1,18 @@
+# PyCharm
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+
+# Virtual environment
+myenv/
+

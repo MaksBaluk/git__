@@ -11,3 +11,8 @@ class plusTest(unittest.TestCase):
     def test_error(self):
         res = plus(3, 3)
         self.assertNotEqual(res, 7)
+
+    def test_equil(self):
+        res = plus(3, 3)
+        res2 = plus(3.0, 3.0)
+        self.assertEqual(res, res2)
